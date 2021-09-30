@@ -21,7 +21,7 @@ window.addEventListener('mousemove', function(event){
 
 ctx.fillStyle = 'white';
 ctx.font = '25px Arial';
-ctx.fillText('M', 0, 30);
+ctx.fillText('Marcos', 0, 30);
 const textCoordinates = ctx.getImageData(0, 0, 100, 100);
 
 class Particle{
